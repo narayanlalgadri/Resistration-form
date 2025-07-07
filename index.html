@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+
+<body>
+    <div class="box">
+        <header>Registration form</header>
+        <form action="#" class="form">
+            <div class="inputgroup">
+                <label for="Name">Name<span style="margin-left: 5px ; color: red;">*</span></label>
+                <div>
+                    <input type="text" placeholder="Enter First Name" style="width: 175px;" required>
+                    <input type="text" placeholder="Enter Last Name" style="width: 175px;" required>
+                </div>
+            </div>
+            <div class="inputgroup">
+                <label for="Email" class="mylable">Email<span style="margin-left: 5px ; color: red;">*</span></label>
+                <div>
+                    <input type="text" placeholder="Enter your Email" required style="max-width: 360px;width: 80%;">
+                </div>
+            </div>
+            <div class="inputgroup">
+                <label for="Password" class="mylable">Password<span
+                        style="margin-left: 5px ; color: red;">*</span></label><br>
+                <input type="password" id="password" name="password" placeholder="Enter password" style="width: 175px;">
+
+            </div>
+            <div class="inputgroup">
+                <label for="Confirm-Password" class="mylable">Confirm Password<span
+                        style="margin-left: 5px ; color: red;">*</span></label>
+                <div>
+                    <input type="password" id="Confirm-Password" name="Confirm-Password" placeholder="Confirm Password"
+                        style="width: 175px;">
+                </div>
+            </div>
+            <div class="inputgroup">
+                <label for="Date-of-Birth" class="mylable">Date of Birth<span
+                        style="margin-left: 5px ; color: red;">*</span></label><br> </label>
+                <input type="date" name="Date-of-Birth" id="Date-of-Birth">
+            </div>
+            <div class="inputgroup">
+                <label for="Gender" class="mylable">Gender<span
+                        style="margin-left: 5px ; color: red;">*</span></label><br></label>
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+            </div>
+
+
+        </form>
+        <footer>
+            <div>
+                <input type="checkbox" name="Terms and Conditions" id="Terms and Conditions"
+                    value="Terms and Conditions" required style="margin-top: 20px;">
+                <a href="terms&condition.html" class="hoverlink">Terms and Conditions</a>
+
+            </div>
+            <div><a href="" class="mybutton">Submit</a>
+
+            </div>
+        </footer>
+
+
+
+    </div>
+
+</body>
+
+</html>
